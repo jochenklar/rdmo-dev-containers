@@ -1,0 +1,6 @@
+services:
+  nginx:
+    image: nginx
+    volumes:
+    - ./templates:/etc/nginx/templates
+    network_mode: "host"
